@@ -4,9 +4,14 @@ import os
 import re
 import getpass
 import configparser
+import argparse
 
-pwd = os.getcwd()
 split_token = re.escape("/")
+
+parser = argparse.ArgumentParser()
+parser.add_argument("pwd", nargs='?', default=os.getcwd(), help="The path to shorten.")
+args = parser.parse_args()
+pwd = args.pwd
 
 config = configparser.ConfigParser()
 config['settings'] = {
