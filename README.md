@@ -1,13 +1,20 @@
 # pwd-shorten.py
-My working directory shortener for UNIX $PS1 prompts.
+My working directory shortener for bash and zsh $PS1 prompts.
 
 ## Requirements
 - Python 3
 
 ## Usage
+
+### bash
 1. Add path where `pwd-shorten` is installed to your `$PATH`.
 2. Add `$(pwd-shorten)` to your `$PS1` prompt.
 
+### zsh
+1. Add path where `pwd-shorten` is installed to your `$PATH`.
+2. Add `$(pwd-shorten)` to your `*.zsh-theme` file.
+
+## Example Output
 The directory path in your prompt will be shortened:
 
     /very-long-directory-name/another-long-one/tacos.txt
