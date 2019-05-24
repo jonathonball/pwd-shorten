@@ -54,3 +54,4 @@ Symbol used to indicate that a directory name has been shortened.
     [settings]
     break_length = 5
     keep_length  = 3
+    replacement  = +
