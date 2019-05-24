@@ -1,5 +1,5 @@
 # pwd-shorten.py
-My working directory shortener for bash and zsh $PS1 prompts.
+My directory shortener for bash and zsh $PS1 prompts.
 
 ## Requirements
 - Python 3
