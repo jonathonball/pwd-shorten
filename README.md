@@ -1,4 +1,4 @@
-# pwd-shorten
+# pwd-shorten.py
 My working directory shortener for UNIX $PS1 prompts.
 
 ## Requirements
