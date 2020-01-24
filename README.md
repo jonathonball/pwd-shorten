@@ -7,11 +7,11 @@ My directory shortener for bash and zsh $PS1 prompts.
 ## Usage
 
 ### bash
-1. Add path where `pwd-shorten` is installed to your `$PATH`.
+1. Make `pwd-shorten` available in your `$PATH`.
 2. Add `$(pwd-shorten)` to your `$PS1` prompt.
 
 ### zsh
-1. Add path where `pwd-shorten` is installed to your `$PATH`.
+1. Make `pwd-shorten` available in your `$PATH`.
 2. Add `$(pwd-shorten)` to your `*.zsh-theme` file.
 
 ## Example Output
